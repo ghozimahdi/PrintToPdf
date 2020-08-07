@@ -1,15 +1,23 @@
 # PrintToPdf
 Android PrintToPdf
 
-![alt text](https://github.com/ghozimahdi/PrintToPdf/blob/master/ss/device-2020-08-07-145551.png)
+Screenshots
+-----------
 
-## Usage
+![Demo screenshot][1]
 
-<b>Dependency</b>
-<p>Include the library in your build.gradle</p>
+Usage
+-----
+
+### Dependency
+
+Include the library in your ``build.gradle``
+
 ```groovy
 implementation 'com.itextpdf:itextg:5.5.10'
 ```
 
 ## Technology
 - [`Dexter`](#dexter) : Permission Android.
+
+[1]: https://github.com/ghozimahdi/PrintToPdf/blob/master/ss/device-2020-08-07-145551.png
