@@ -36,6 +36,4 @@ dependencies {
 
     implementation 'com.karumi:dexter:6.2.1'
     implementation 'com.itextpdf:itextg:5.5.10'
-    implementation 'com.karumi:dexter:6.2.1'
-
 }

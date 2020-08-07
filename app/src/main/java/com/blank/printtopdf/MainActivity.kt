@@ -110,8 +110,8 @@ class MainActivity : AppCompatActivity() {
             ) // setting font
 
             val g = Font(Font.FontFamily.TIMES_ROMAN, 20.0f, Font.NORMAL, BaseColor.BLUE)
-            document.add(Paragraph("Data Orang Aneh \n", f)) // setting header diluar table
-            document.add(Paragraph("Pdf File Through Itext", g))
+
+            document.add(Paragraph("Data Orang Aneh \n \n", f)) // setting header diluar table
             document.add(table) // add table to document
 
             document.close()
