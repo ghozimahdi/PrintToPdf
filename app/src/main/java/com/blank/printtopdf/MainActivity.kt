@@ -95,7 +95,7 @@ class MainActivity : AppCompatActivity() {
                 table.addCell(status)
             }
 
-            val pdfname = "KumpulanOrangAneh.pdf" // set namanya disinih
+            val pdfname = "DataKaryawan.pdf" // set namanya disinih
             val pdfFile = File(docsFolder.absolutePath, pdfname)
             val output = FileOutputStream(pdfFile)
             PdfWriter.getInstance(document, output) // create file pdf
@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
 
             val g = Font(Font.FontFamily.TIMES_ROMAN, 20.0f, Font.NORMAL, BaseColor.BLUE)
 
-            document.add(Paragraph("Data Orang Aneh \n \n", f)) // setting header diluar table
+            document.add(Paragraph("Data Karyawan \n \n", f)) // setting header diluar table
             document.add(table) // add table to document
 
             document.close()
